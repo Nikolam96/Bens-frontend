@@ -1,0 +1,12 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+article {
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  padding: 0.5rem;
+}
