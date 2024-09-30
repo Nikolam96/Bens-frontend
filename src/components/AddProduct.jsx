@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useCreateProduct } from "../utils/reactQueryCustomHooks";
+import { useCreateProduct } from "../utils/ProductAPI";
 import { Link } from "react-router-dom";
 
 const AddProduct = () => {

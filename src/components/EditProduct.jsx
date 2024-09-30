@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { getProduct, useEditProduct } from "../utils/reactQueryCustomHooks";
+import { getProduct, useEditProduct } from "../utils/ProductAPI";
 import { Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
 

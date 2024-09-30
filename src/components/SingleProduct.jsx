@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { getProduct, useDeleteProduct } from "../utils/reactQueryCustomHooks";
+import { getProduct, useDeleteProduct } from "../utils/ProductAPI";
 import moment from "moment";
 
 const SingleProduct = () => {

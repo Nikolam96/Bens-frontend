@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Product from "../../components/Product";
-import { getProducts } from "../../utils/reactQueryCustomHooks";
+import { getProducts } from "../../utils/ProductAPI";
 import styles from "./products.module.css";
 import SearchProduct from "../../components/SearchProduct";
 import { Link } from "react-router-dom";
